@@ -1,0 +1,15 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: my-client
+  jackson:
+      serialization: true
+  cloud:
+    config:
+      server:
+        git:
+         uri: https://github.com/ShaunaVayne/spring-config-demo.git
+         searchPaths: my-config
+         username: ahaqwjwk@163.com
+         password: 3g2,eday726
